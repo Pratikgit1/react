@@ -6,7 +6,7 @@ const UserContextProvider =(props:any)=>{
     const[user , setUser]=useState(null)
 
 return (<UserContext.Provider value={{user,setUser}}>
-    {props.children}
+    { props.children }
 </UserContext.Provider>
 )
 }
